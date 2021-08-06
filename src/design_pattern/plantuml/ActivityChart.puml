@@ -1,0 +1,9 @@
+@startuml
+start
+if(这个是真的) then (yes)
+    :做这个;
+    stop
+else (no)
+    :做那个;
+    stop
+@enduml
